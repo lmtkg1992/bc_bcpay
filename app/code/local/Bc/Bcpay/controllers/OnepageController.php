@@ -4,7 +4,7 @@ require_once 'Mage/Checkout/controllers/OnepageController.php';
 class Bc_Bcpay_OnepageController extends Mage_Checkout_OnepageController{
 
     public function saveExcellenceAction(){
-
+        echo 123;
         if ($this->_expireAjax()) {
             return;
         }
